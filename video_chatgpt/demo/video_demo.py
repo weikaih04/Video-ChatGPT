@@ -4,14 +4,14 @@ import datetime
 import json
 import time
 import gradio as gr
-from video_chatgpt.video_conversation import (default_conversation)
-from video_chatgpt.utils import (build_logger, violates_moderation, moderation_msg)
-from video_chatgpt.demo.gradio_patch import Chatbot as grChatbot
-from video_chatgpt.utils import disable_torch_init
-from video_chatgpt.demo.chat import Chat
-from video_chatgpt.demo.template import tos_markdown, css, title, disclaimer, Seafoam
-from video_chatgpt.eval.model_utils import initialize_model
-from video_chatgpt.constants import *
+from ..video_conversation import (default_conversation)
+from ..utils import (build_logger, violates_moderation, moderation_msg)
+from ..demo.gradio_patch import Chatbot as grChatbot
+from ..utils import disable_torch_init
+from ..demo.chat import Chat
+from ..demo.template import tos_markdown, css, title, disclaimer, Seafoam
+from ..eval.model_utils import initialize_model
+from ..constants import *
 
 import logging
 

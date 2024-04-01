@@ -3,9 +3,9 @@ import numpy as np
 from PIL import Image
 from decord import VideoReader, cpu
 from transformers import AutoTokenizer, CLIPVisionModel, CLIPImageProcessor
-from video_chatgpt.model import VideoChatGPTLlamaForCausalLM
-from video_chatgpt.utils import disable_torch_init
-from video_chatgpt.constants import *
+from ..model import VideoChatGPTLlamaForCausalLM
+from ..utils import disable_torch_init
+from ..constants import *
 import torch
 
 

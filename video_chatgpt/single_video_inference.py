@@ -8,14 +8,14 @@ python -m video_chatgpt.single_video_inference \
     --video_path <video_path>
 """
 
-from video_chatgpt.video_conversation import conv_templates, SeparatorStyle
-from video_chatgpt.model.utils import KeywordsStoppingCriteria
+from .video_conversation import conv_templates, SeparatorStyle
+from .model.utils import KeywordsStoppingCriteria
 import torch
 
 #add new packages as below
 from PIL import Image
 from decord import VideoReader, cpu
-from video_chatgpt.eval.model_utils import initialize_model, load_video
+from .eval.model_utils import initialize_model, load_video
 import argparse
 import numpy as np
 import os

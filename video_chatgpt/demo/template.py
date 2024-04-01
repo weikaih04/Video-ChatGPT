@@ -1,4 +1,4 @@
-from video_chatgpt.demo.gradio_css import code_highlight_css
+from ..demo.gradio_css import code_highlight_css
 from gradio.themes.utils import colors, fonts, sizes
 from gradio.themes.base import Base
 from typing import Iterable

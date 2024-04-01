@@ -1,7 +1,7 @@
 import dataclasses
 from enum import auto, Enum
 from typing import List
-from video_chatgpt.eval.model_utils import load_video
+from .eval.model_utils import load_video
 
 
 class SeparatorStyle(Enum):

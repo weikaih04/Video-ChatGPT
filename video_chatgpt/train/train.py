@@ -7,11 +7,11 @@ from typing import Dict, Optional, Sequence
 import torch
 import transformers
 from torch.utils.data import Dataset
-from video_chatgpt.train.llava_trainer import VideoChatGPTTrainer
-from video_chatgpt import video_conversation as conversation_lib
-from video_chatgpt.model import *
+from .llava_trainer import VideoChatGPTTrainer
+from .. import video_conversation as conversation_lib
+from ..model import *
 import torch.distributed as dist
-from video_chatgpt.constants import *
+from ..constants import *
 import pickle
 
 IGNORE_INDEX = -100

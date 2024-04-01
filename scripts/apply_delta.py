@@ -7,7 +7,7 @@ import argparse
 import torch
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForCausalLM
-from video_chatgpt.model.video_chatgpt import VideoChatGPTLlamaForCausalLM
+from ..video_chatgpt.model.video_chatgpt import VideoChatGPTLlamaForCausalLM
 
 
 def apply_delta(base_model_path, target_model_path, delta_path):

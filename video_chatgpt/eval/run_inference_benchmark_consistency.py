@@ -2,8 +2,8 @@ import os
 import argparse
 import json
 from tqdm import tqdm
-from video_chatgpt.eval.model_utils import initialize_model, load_video
-from video_chatgpt.inference import video_chatgpt_infer
+from .model_utils import initialize_model, load_video
+from ..inference import video_chatgpt_infer
 
 def parse_args():
     """

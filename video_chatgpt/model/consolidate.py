@@ -6,7 +6,7 @@ import argparse
 
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
-from video_chatgpt.model import *
+from . import *
 
 
 def consolidate_ckpt(src_path, dst_path):

@@ -1,5 +1,5 @@
 import torch
-from video_chatgpt.model import *
+from ..model import *
 from transformers import StoppingCriteria
 
 
