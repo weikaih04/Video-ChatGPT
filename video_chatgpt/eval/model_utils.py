@@ -9,7 +9,7 @@ from ..constants import *
 import torch
 
 
-def load_video(vis_path, n_clips=1, num_frm=100):
+def load_video(vis_path, n_clips=1, num_frm=16):
     """
     Load video frames from a video file.
 
